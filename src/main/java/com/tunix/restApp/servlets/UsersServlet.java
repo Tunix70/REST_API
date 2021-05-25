@@ -25,11 +25,11 @@ public class UsersServlet extends HttpServlet {
         printWriter.println("<h1>USERS DATA</h1>");
         printWriter.println("<br/>");
 
-        if(req.getParameter("numberOfUser") == null) {
-            printWriter.println(userRepository.getAll());
-        }else{
-            printWriter(userRepository.getById(req.getParameter()));
-        }
+//        if(req.getParameter("numberOfUser") == null) {
+//            printWriter.println(userRepository.getAll());
+//        }else{
+//            printWriter(userRepository.getById(req.getParameter()));
+//        }
 
         printWriter.println("</html></body>");
     }
