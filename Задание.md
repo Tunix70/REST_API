@@ -1,5 +1,7 @@
 <h2>Задание</h2>
 
+[![Build Status](https://travis-ci.com/Tunix70/REST_API.svg?branch=master)](https://travis-ci.com/Tunix70/REST_API)
+
 Необходимо реализовать REST API, которое взаимодействует с файловым
 хранилищем и предоставляет возможность получать доступ к файлам и
 истории загрузок.
